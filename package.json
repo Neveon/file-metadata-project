@@ -1,0 +1,24 @@
+{
+  "name": "Neveon",
+  "version": "0.0.1",
+  "description": "Upload a file and get a page displaying file name and size in bytes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "multer":"1.4.1",
+    "cors":"2.8.5",
+    "body-parser":"1.18.3"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
